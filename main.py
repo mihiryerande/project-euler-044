@@ -18,7 +18,7 @@ from math import floor, sqrt
 
 def is_pentagonal(x):
     """
-    Returns True if `x` is a pentagonal number.
+    Returns True iff `x` is a pentagonal number.
 
     Args:
         x (int): Natural number
