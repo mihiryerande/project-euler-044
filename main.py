@@ -14,9 +14,10 @@
 #       and D = |P_k − P_j| is minimised; what is the value of D?
 
 from math import floor, sqrt
+from typing import Tuple
 
 
-def is_pentagonal(x):
+def is_pentagonal(x: int) -> bool:
     """
     Returns True iff `x` is a pentagonal number.
 
@@ -41,7 +42,7 @@ def is_pentagonal(x):
     return floor(i) == i
 
 
-def main():
+def main() -> Tuple[int, int]:
     """
     Returns the pair of pentagonal numbers P_j and P_k (where j < k),
       such that their sum and difference are both pentagonal numbers
